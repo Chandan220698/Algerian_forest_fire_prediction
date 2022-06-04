@@ -1,5 +1,6 @@
 # Algerian_forest_fire_prediction
-
+### Deployment Link:
+* [forest_fire_deployment](https://forest-fire-prediction-ck.herokuapp.com/) 
 ## Project Output
 ### Homepage
 ![alt text](https://github.com/Chandan220698/Algerian_forest_fire_prediction/blob/main/sample_images/homepage.PNG)
@@ -11,9 +12,6 @@
 ![Output avi gif](https://github.com/Chandan220698/Algerian_forest_fire_prediction/blob/main/sample_images/bulk_input_test.PNG)
 #### Sample Bulk Input
 ![Output avi gif](https://github.com/Chandan220698/Algerian_forest_fire_prediction/blob/main/sample_images/bulk_output_test.PNG)
-
-### Deployment Link:
-* [forest_fire_deployment](https://forest-fire-prediction-ck.herokuapp.com/) 
 
 ## Steps to run project in the terminal:
 * **Open your terminal**
