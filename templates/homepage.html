@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<ht >
+<!--From https://codepen.io/frytyler/pen/EGdtg-->
+<head>
+  <meta charset="UTF-8">
+  <title>ML API</title>
+  <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+<link href 'https://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Hind:300' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
+  
+</head>
+
+<body>
+ <div class="login">
+	<h1>Prediction</h1>
+
+     <!-- Main Input For Receiving Query to our ML -->
+     <form action="/predict" method="POST">
+        <input type="text" name="day" placeholder="Day" required="required" /><br>
+        <input type="text" name="month" placeholder="Month" required="required" /><br>
+        <input type="text" name="year" placeholder="Year" required="required" /><br>
+        <input type="text" name="temp" placeholder="Temperature" required="required" /><br>
+        <input type="text" name="RH" placeholder="RH" required="required" /><br>
+        <input type="text" name="Ws" placeholder="Ws" required="required" /><br>
+        <input type="text" name="Rain" placeholder="Rain" required="required" /><br>
+        <input type="text" name="FFMC" placeholder="FFMC" required="required" /><br>
+        <input type="text" name="DMC" placeholder="DMC" required="required" /><br>
+        <input type="text" name="DC" placeholder="DC" required="required" /><br>
+        <input type="text" name="ISI" placeholder="IS" required="required" /><br>
+        <input type="text" name="BUI" placeholder="BUI" required="required" /><br>
+        <input type="text" name="FWI" placeholder="FWI" required="required" /><br>
+        <input type="submit" value="Proceed">
+    </form>
+
+   <br>
+   <br>
+  
+   
+ </div>
+ {{prediction_text}}
+
+</body>
+</html>

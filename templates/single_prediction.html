@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+{% block content %}
+<hr>
+<div align = "center">
+  <h4><b>Single Prediction</b></h4>
+    <div class="login"> 
+        <hr>
+        <br>
+         <!-- Main Input For Receiving Query to our ML -->
+         <form action="/single_prediction" method="POST">
+            <input type="text" name="day" placeholder="Day" required="required" /><br>
+            <input type="text" name="month" placeholder="Month" required="required" /><br>
+            <input type="text" name="year" placeholder="Year" required="required" /><br>
+            <input type="text" name="RH" placeholder="RH" required="required" /><br>
+            <input type="text" name="Ws" placeholder="Ws" required="required" /><br>
+            <input type="text" name="Rain" placeholder="Rain" required="required" /><br>
+            <input type="text" name="FFMC" placeholder="FFMC" required="required" /><br>
+            <input type="text" name="DMC" placeholder="DMC" required="required" /><br>
+            <input type="text" name="DC" placeholder="DC" required="required" /><br>
+            <input type="text" name="ISI" placeholder="IS" required="required" /><br>
+            <input type="text" name="BUI" placeholder="BUI" required="required" /><br>
+            <input type="text" name="FWI" placeholder="FWI" required="required" /><br>
+            <input type="submit" value="Proceed">
+        </form>
+    </div>
+  </form>
+</div>
+{% endblock content %}

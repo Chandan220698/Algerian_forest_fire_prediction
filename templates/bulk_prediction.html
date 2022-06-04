@@ -1,0 +1,21 @@
+{% extends "layout.html" %}
+{% block content %}
+<hr>
+<div align = "center">
+  <h4><b>Bulk Prediction</b></h4>
+  <hr>
+  <h5><b>Mongo DB Connection</b></h5>
+    <div class="login"> 
+        <hr>
+        <br>
+         <!-- Main Input For Receiving Query to our ML -->
+         <form action="/bulk_prediction" method="POST">
+            <input type="text" name="client url" placeholder="client url" required="required" /><br>
+            <input type="text" name="database name" placeholder="database name" required="required" /><br>
+            <input type="text" name="collection name" placeholder="collection name" required="required" /><br>
+            <input type="submit" value="Proceed">
+        </form>
+    </div>
+  </form>
+</div>
+{% endblock content %}

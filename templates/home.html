@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+{% block content %}
+<br>
+<hr>
+<div align = "center" style="font-weight:lighter;">
+  <p style="font-size: 35px; font-weight: bolder;"><b>Alerigan Forest Fire Prediction</b></p>
+  <b><hr></b>
+  <h3><b>Select Single/Bulk Input</b></h3>
+</div>
+
+<div style="margin-top: 2%;">
+  <form action="/prediction_choice" method="POST">
+
+    <table align="center">
+      <tr>
+        <td>
+          <select id='choice' name='choice'>
+            <option value="single">Single Prediction</option>
+            <option value="bulk">Bulk Prediction</option>
+          </select>
+        </td>
+        <tr>
+            <td>
+            <input type="submit" value="Proceed">
+            </td>
+        </tr>
+      </tr>
+    </table>
+  </form>
+</div>
+{% endblock content %}
