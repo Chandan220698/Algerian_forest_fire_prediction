@@ -2,7 +2,7 @@
 
 ## Project Output
 #### Homepage
-![Output avi gif]([https://github.com/Chandan220698/Social-Distance-Detector/blob/main/sample_output_1.gif](https://github.com/Chandan220698/Algerian_forest_fire_prediction/blob/main/sample_images/homepage.PNG))
+![alt text](https://github.com/Chandan220698/Algerian_forest_fire_prediction/blob/main/sample_images/homepage.PNG)
 #### Sample output 2
 ![Output avi gif](https://github.com/Chandan220698/Social-Distance-Detector/blob/main/sample_output_2.gif)
 
