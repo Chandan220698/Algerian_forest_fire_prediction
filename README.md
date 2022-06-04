@@ -1,5 +1,5 @@
 # Algerian_forest_fire_prediction
-### Deployment Link:
+## Deployment Link:
 * [forest_fire_deployment](https://forest-fire-prediction-ck.herokuapp.com/) 
 ## Project Output
 ### Homepage
