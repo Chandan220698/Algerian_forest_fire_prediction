@@ -1,22 +1,25 @@
 # Algerian_forest_fire_prediction
 
 ## Project Output
-#### Homepage
+### Homepage
 ![alt text](https://github.com/Chandan220698/Algerian_forest_fire_prediction/blob/main/sample_images/homepage.PNG)
-#### Sample output 2
-![Output avi gif](https://github.com/Chandan220698/Social-Distance-Detector/blob/main/sample_output_2.gif)
+#### Sample Single Input
+![Output avi gif](https://github.com/Chandan220698/Algerian_forest_fire_prediction/blob/main/sample_images/single_input_test.PNG)
+#### Sample Single Output
+![Output avi gif](https://github.com/Chandan220698/Algerian_forest_fire_prediction/blob/main/sample_images/single_output_test.PNG)
+#### Sample Bulk Input
+![Output avi gif](https://github.com/Chandan220698/Algerian_forest_fire_prediction/blob/main/sample_images/bulk_input_test.PNG)
+#### Sample Bulk Input
+![Output avi gif](https://github.com/Chandan220698/Algerian_forest_fire_prediction/blob/main/sample_images/bulk_output_test.PNG)
 
-
-### Important Note:
-* Github doesn't support files with size larger than 25 Mb.You can find the yolo weights in [google drive](https://drive.google.com/file/d/1zZPnKXB0RKnVsgjzfehfjmb_AwGAnNl6/view?usp=sharing) 
-* Download and paste it to yolo-coco folder
+### Deployment Link:
+* [forest_fire_deployment](https://forest-fire-prediction-ck.herokuapp.com/) 
 
 ## Steps to run project in the terminal:
 * **Open your terminal**
 * **Change directory to project directory**
 * **Execute** ` pip install -r requirements.txt ` ***to install the project dependencies***
-* **Run the command** ` python social_distance_detector.py --input pedestrians.mp4 --output output.avi --display 1 ` ***to run your social distance detection project***
-* After you run the last line of command,a window eill pop up and after execution of the file a `output.avi` file will be showing up in your directory
+* **Run the command** ` python app.py ` ***to run your  project***
 
 ## Contacts:
 * **Created by: [Chandan Kumar](https://github.com/Chandan220698)**
